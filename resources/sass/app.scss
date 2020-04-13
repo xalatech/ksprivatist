@@ -1,1 +1,173 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+// template styles
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// Variables
+@import 'variables';
+
+/* Base */
+@import "site-base";
+/* Navbar */
+@import "site-navbar";
+/* Blocks */
+@import "site-blocks";
+
+.btn-primary {
+    @include button-variant($primary, darken($primary, 7.5%), darken($primary, 10%), lighten($primary, 5%), lighten($primary, 10%), darken($primary, 30%));
+}
+
+.btn {
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 30px 40px 25px;
+    text-transform: initial;
+}
+
+body {
+    font-size: 18px;
+}
+
+.gray {
+    background-color: $gray-200;
+    color: $third;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.title-section h2 {
+    padding-left: 0px;
+    border-left: 0px;
+    font-weight: bold;
+    display: inline-block;
+    color: #000;
+}
+
+
+// Timeline
+//Variables
+$gray: #9F9FA3;
+$blue: #00637C;
+$white: #DBF1FF;
+
+.ProgressBar {
+    margin: 0 auto;
+    padding: 2em 0 3em;
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProgressBar-step {
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+    &:before,
+    &:after {
+        content: "";
+        height: 0.1em;
+        background-color: $third;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        left: -50%;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: all .25s ease-out;
+    }
+
+    &:first-child:before,
+    &:first-child:after {
+        display: none;
+    }
+
+    &:after {
+        background-color: $third;
+        width: 0%;
+    }
+}
+
+.ProgressBar-icon {
+    width: 0.4em;
+    height: 0.4em;
+    background-color: #263336;
+    fill: #263336;
+    border-radius: 50%;
+    padding: 0.4em;
+    max-width: 100%;
+    z-index: 10;
+    position: relative;
+    transition: all 0.25s ease-out;
+    margin-top: -5px;
+}
+
+.ProgressBar-stepLabel {
+    display: block;
+    color: $third;
+    position: absolute;
+    padding-top: 1em;
+    width: 100%;
+    transition: all .25s ease-out;
+}
+
+//FOR CODEPEN FORMATTING
+.wrapper {
+    max-width: 1000px;
+    margin: 4em auto;
+    font-size: 12px;
+}
+
+//END CODEPEN FORMATTING
+// End Timeline
+
+//produkter
+.produkter {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.card {
+    text-align: center;
+    border-radius: 20px;
+    background: $fourth;
+
+    .card-header {
+        font-weight: bold;
+        background: none;
+        border: none;
+        padding: 20px;
+    }
+
+    h5 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .card-footer {
+        background: none;
+        border: none;
+        margin-bottom: 20px;
+    }
+
+    .card-body {
+        min-height: 250px;
+    }
+}
+
+//end produkter
+
+.main-container {
+    padding: 120px 15px;
+
+}
