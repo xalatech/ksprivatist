@@ -2,7 +2,11 @@ $bg-gray: #f9f9f9;
 
 h2 {
     letter-spacing: .2em;
+    -webkit-text-stroke: 1px $primary;
+    -webkit-text-fill-color: $primary;
 }
+
+
 
 .content-section {
     padding-right: 50px;
@@ -111,15 +115,18 @@ h2 {
     }
 
     h1 {
-        font-size: 42px;
+        font-size: 46px;
         line-height: 140%;
-        letter-spacing: 0.12em;
         color: $black;
         margin-bottom: 30px;
         text-transform: uppercase;
+        letter-spacing: 0.2em;
+
+        -webkit-text-stroke: 3.5px $white;
+        -webkit-text-fill-color: $white;
 
         @include media-breakpoint-up(md) {
-            font-size: 42px;
+            font-size: 46px;
         }
     }
 
@@ -728,7 +735,6 @@ h2 {
 .title-section {
     h2 {
         padding-left: 30px;
-        border-left: 4px solid $primary;
         display: inline-block;
         margin-top: 30px;
         margin-bottom: 5px;

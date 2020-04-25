@@ -31,11 +31,12 @@ video {
 .title-section h2 {
     padding-left: 0px;
     border-left: 0px;
-    font-weight: bold;
+    font-style: normal;
+    font-weight: 800;
     display: inline-block;
-    color: #000;
+    color: $primary;
+    font-family: Open Sans;
 }
-
 
 // Timeline
 //Variables
@@ -136,6 +137,7 @@ $white: #DBF1FF;
         font-size: 32px;
         font-weight: 400;
         color: $primary;
+
     }
 
     .card-body {
@@ -155,7 +157,7 @@ $white: #DBF1FF;
 }
 
 .card-products {
-    background: #EFEFEF;
+    background: #f8f9fa00;
     box-shadow: 10px 10px 20px #CCCBCB, -10px -10px 20px #FFFFFF;
     border-radius: 8px;
     width: 326px;
@@ -170,6 +172,8 @@ $white: #DBF1FF;
         margin: 20px;
         color: $primary;
         letter-spacing: 0.15em;
+        -webkit-text-stroke: 1px $primary;
+        -webkit-text-fill-color: $primary;
     }
 
     .card-body {

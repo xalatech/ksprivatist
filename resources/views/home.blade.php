@@ -148,7 +148,7 @@
                         <p class="card-text">I tillegg eller i stedet for å velge enkeltfag, kan du også velge ulike pakker som inneholder konkrete fag innenfor ulike studieretninger. For eksempel ingeniørpakke eller medisinpakke.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Se pakene her</a>
+                        <a href="#" class="btn btn-primary">Se pakkene her</a>
                     </div>
                   </div>
                 </div>

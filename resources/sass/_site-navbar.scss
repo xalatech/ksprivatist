@@ -59,10 +59,13 @@
 .site-navbar {
     margin-bottom: 0px;
     z-index: 1999;
+    padding-top: 0px;
+    margin-top: -10px;
 
     // position: relative;
     &.transparent {
         background: transparent;
+        height: 95px;
 
         a {
             color: $white;

@@ -11,7 +11,7 @@
 
 body {
   line-height: 2.1rem;
-  color: gray;
+  color: #263336;
   font-weight: 300;
   font-size: 0.95rem;
   font-family: "Open Sans", sans-serif;
@@ -322,10 +322,13 @@ a:hover {
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
+  padding-top: 0px;
+  margin-top: -10px;
 }
 
 .site-navbar.transparent {
   background: transparent;
+  height: 95px;
 }
 
 .site-navbar.transparent a {
@@ -746,6 +749,8 @@ a:hover {
 
 h2 {
   letter-spacing: 0.2em;
+  -webkit-text-stroke: 1px #263437;
+  -webkit-text-fill-color: #263437;
 }
 
 .content-section {
@@ -854,17 +859,19 @@ h2 {
 }
 
 .site-blocks-cover h1 {
-  font-size: 42px;
+  font-size: 46px;
   line-height: 140%;
-  letter-spacing: 0.12em;
   color: #000;
   margin-bottom: 30px;
   text-transform: uppercase;
+  letter-spacing: 0.2em;
+  -webkit-text-stroke: 3.5px #fff;
+  -webkit-text-fill-color: #fff;
 }
 
 @media (min-width: 768px) {
   .site-blocks-cover h1 {
-    font-size: 42px;
+    font-size: 46px;
   }
 }
 
@@ -1404,7 +1411,6 @@ h2 {
 
 .title-section h2 {
   padding-left: 30px;
-  border-left: 4px solid #263437;
   display: inline-block;
   margin-top: 30px;
   margin-bottom: 5px;
@@ -1548,9 +1554,11 @@ video {
 .title-section h2 {
   padding-left: 0px;
   border-left: 0px;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: 800;
   display: inline-block;
-  color: #000;
+  color: #263437;
+  font-family: Open Sans;
 }
 
 .ProgressBar {
@@ -1656,7 +1664,7 @@ video {
 }
 
 .card-products {
-  background: #EFEFEF;
+  background: #f8f9fa00;
   box-shadow: 10px 10px 20px #CCCBCB, -10px -10px 20px #FFFFFF;
   border-radius: 8px;
   width: 326px;
@@ -1672,6 +1680,8 @@ video {
   margin: 20px;
   color: #263437;
   letter-spacing: 0.15em;
+  -webkit-text-stroke: 1px #263437;
+  -webkit-text-fill-color: #263437;
 }
 
 .card-products .card-body {

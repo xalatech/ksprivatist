@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="{{ asset('favicon.png') }}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>KS Privatist | Nettstudier | Digital læringsplattform</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
@@ -30,7 +31,7 @@
               </form>
             </div>
           </div>
-          <div class="container">
+          <div class="container-fluid">
             <div class="d-flex align-items-center justify-content-between">
               <div class="logo">
                 <div class="site-logo">
