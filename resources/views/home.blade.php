@@ -8,8 +8,9 @@
             <div class="col-md-6 ml-auto order-md-1 align-self-start">
               <div class="site-block-cover-content">
               <h1 class="main-title">DIN DIGITALE <br> LÆRINGSPLATTFORM</h1>
-              <h2 class="mt-5"><span class="price-title">525,- </span> <span class="sub-title">per fag/mnd</span></h2>
-              <a href="#" class="btn btn-primary mt-5">Se fagtilbudet her</a>
+              <p class="sub-title">- En enklere vei til bedre karakterer</p>
+              <p class="mt-5"><span class="price-title">579,- </span> <span class="sub-title">per fag/mnd</span></p>
+              <a href="#" class="btn btn-transparent mt-5">Se fagtilbudet her</a>
               </div>
             </div>
             <div class="col-md-6 order-1 align-self-end">
@@ -19,20 +20,19 @@
     </div>
       <div class="site-section gray" data-aos="fade">
         <div class="container">
+        <div class="row">
+            <div class="col-6">
           <div class="title-section">
-            <h2 class="text-uppercase"><span>HVEM ER VI</span></h2>
+            <h2 class="text-uppercase"><span>HVA ER KS?</span></h2>
           </div>
-          <div class="row align-items-stretch">
-            <div class="col-lg-5">
-                <p class="mt-3 mb-3">
-                    KS er din nye digitale læringsplattform. Statistikken i dag viser at det kun er 37 % av elevene som lærer av å sitte på skolebenken. Hos KS får du akkurat den hjelpen som trengs for å lykkes; nettundervisning med erfarne og kunnskapsrike studenter.
-                </p>
-                <p class="mt-3">
-Den digitale leksehjelpen foregår med fremvisninger av ulike områder av pensumet, i tillegg til hjelp med eksamensforberedelser. Pensumet blir lært bort av fagdyktige studenter via videosnutter, der faget blir forklart så enkelt som mulig. Dette gjør det enklere for dere å oppnå karakterene dere ønsker på skolen. Bli medlem av KS Privatist i dag.
-                </p>
-            </div>
-            <div class="col-lg-6 offset-md-1 p3">
-                <video controls>
+                <div class="content-section">
+                    <p class="mt-3 mb-3">
+                        KS er en digital læringsplattform for elever på ungdomsskolen og videregående skole. Hos oss får du som elev den digitale nettundervisningen (leksehjelpen) som kreves for å lykkes i de ulike fagene. Den digitale nettundervisningen foregår med fremvisninger av ulike områder av pensumet, i tillegg til eksamensforberedelser. Pensumet blir lært bort av fagdyktige studenter via videosnutter, der faget blir forklart så enkelt som mulig.           </p>
+
+                </div>
+                  </div>
+           <div class="col-6 text-center pt-3">
+                <video controls class="mt-3 ml-3">
                     <source src="movie.mp4" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">
                   Your browser does not support the video tag.
@@ -42,11 +42,52 @@ Den digitale leksehjelpen foregår med fremvisninger av ulike områder av pens
         </div>
       </div>
 
-      <div class="site-section" data-aos="fade">
+      <div class="site-blocks-cover half main_cover2" data-aos="fade">
+        <div class="layer">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 ml-auto order-md-1 align-self-center">
+              <div class="site-block-cover-content">
+              <h3 class="main-title">SKREDDERSYDD <br> PENSUM AV DYKTIGE <br>STUDENTER</h3>
+              </div>
+            </div>
+
+          </div>
+      </div>
+    </div>
+
+
+    <div class="site-blocks-cover half_right main_cover3" data-aos="fade">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mr-auto order-md-1 align-self-start">
+                <div class="title-section">
+                    <h2 class="text-uppercase"><span>HVORFOR KS?</span></h2>
+                  </div>
+                  <div class="content-section">
+                  <p class="mt-3 mb-3">
+                    KS er etablert av studenter for studenter. Statistikken i dag viser at det kun er 37 % av elever som lærer av å sitte bak skolebenken. Hos oss får du muligheten til å gå gjennom pensumet, ta notater underveis og lære i ditt eget tempo. <b>Et læringsabonnement hos KS er kun et supplement til skolen, og er ment som et hjelpemiddel ved siden av.</b>
+                </p>
+
+                <p class="mt-3 mb-3">
+                    Hvorfor ikke ha ett abonnement som gir deg kunnskapen og ferdighetene til å lykkes på skolen? Et digitalt læringsabonnement med videoer som gir elever kunnskap og lærdom for å lykkes på skolen er absolutt en god investering. Én time med KS nettundervisning hver dag kan hjelpe elever med å prestere mye bedre på skolen.
+                </p>
+                  </div>
+            </div>
+
+          </div>
+      </div>
+    </div>
+
+
+
+      <div class="site-section gray" data-aos="fade">
         <div class="container">
           <div class="row">
             <div class="title-section mb-5 col-12">
-              <h2 class="text-uppercase">SLIK FUNGERER DET</h2>
+              <h2 class="text-uppercase">
+                HVORDAN FUNGERER DET?</h2>
             </div>
           </div>
           <div class="row mb-5 mt-5">
@@ -84,13 +125,12 @@ Den digitale leksehjelpen foregår med fremvisninger av ulike områder av pens
                   </video>
             </div>
 
-            <div class="row produkter">
-                <div class="col-lg-1 col-md-1">
-                </div>
-                <div class="col-lg-4 col-md-4">
+            <div class="row produkter justify-content-center">
 
-            <div class="card">
-                <h5 class="card-header">ENKELTFAG</h5>
+                <div class="col produkt">
+
+            <div class="card card-products">
+                <span class="card-header">ENKELTFAG</span>
                 <div class="card-body">
                     <p class="card-text">Du har mulighet til å melde deg inn i enkeltfag, der du så får oversikt over pensumsvideoer basert på de valgte fagene.</p>
                 </div>
@@ -100,10 +140,10 @@ Den digitale leksehjelpen foregår med fremvisninger av ulike områder av pens
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-4">
+            <div class="col produkt">
 
-                <div class="card">
-                    <h5 class="card-header">FAGPAKKER</h5>
+                <div class="card card-products">
+                    <span class="card-header">FAGPAKKER</span>
                     <div class="card-body">
                         <p class="card-text">I tillegg eller i stedet for å velge enkeltfag, kan du også velge ulike pakker som inneholder konkrete fag innenfor ulike studieretninger. For eksempel ingeniørpakke eller medisinpakke.</p>
                     </div>
@@ -112,8 +152,7 @@ Den digitale leksehjelpen foregår med fremvisninger av ulike områder av pens
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-1 col-md-1">
-                </div>
+
         </div>
 
 
@@ -122,20 +161,5 @@ Den digitale leksehjelpen foregår med fremvisninger av ulike områder av pens
           </div>
         </div>
       </div>
-      <div class="site-section gray" data-aos="fade">
-        <div class="container">
-          <div class="title-section">
-            <h2 class="text-uppercase"><span>VEILEDNING FRA DYKTIGE STUDENTER</span></h2>
-          </div>
-          <div class="row align-items-stretch">
-            <div class="col-lg-5">
-                <p class="mt-3 mb-3">
-                    Hos oss har du også mulighet til å få veiledning direkte fra våre studenter via videosamtaler. Dersom du har noe du lurer på og trenger utdypende forklaring til utenom pensumsvideoene, kan du stille spørsmål og få hjelp der og da.
-                </p>
-                <a href="#" class="btn btn-primary mt-5">Les mer</a>
-            </div>
 
-          </div>
-        </div>
-      </div>
 @endsection

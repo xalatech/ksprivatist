@@ -14,6 +14,10 @@
     }
 }
 
+.icons {
+    margin-top: -5px;
+}
+
 .icons-btn {
     display: inline-block;
     text-align: center;
@@ -53,14 +57,25 @@
 }
 
 .site-navbar {
-    background: $white;
     margin-bottom: 0px;
     z-index: 1999;
-    // position: relative;
-    background: $white !important;
 
+    // position: relative;
     &.transparent {
         background: transparent;
+
+        a {
+            color: $white;
+
+            &:hover {
+                color: lighten($gray-1, 10%);
+            }
+        }
+    }
+
+    &.scrolled {
+        background-color: $ninth !important;
+        transition: background-color 200ms linear;
     }
 
     .site-navbar-top {
@@ -181,13 +196,12 @@
 
             >li {
                 display: inline-block;
-                padding: 10px 5px;
+                padding: 20px 15px;
 
                 >a {
                     padding: 10px 10px;
                     text-transform: uppercase;
                     letter-spacing: .05em;
-                    color: $gray-1;
                     font-size: 15px;
                     text-decoration: none !important;
 

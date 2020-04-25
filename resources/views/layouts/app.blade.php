@@ -18,11 +18,10 @@
     <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/aos.css')}}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
 </head>
 <body>
     <div class="site-wrap">
-        <div class="site-navbar fixed-top bg-white py-2">
+        <div class="site-navbar fixed-top transparent py-2">
           <div class="search-wrap">
             <div class="container">
               <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
@@ -35,7 +34,7 @@
             <div class="d-flex align-items-center justify-content-between">
               <div class="logo">
                 <div class="site-logo">
-                  <a href="/" class="js-logo-clone"><img src="{{ asset('images/kslogo.png')}}" alt="KS Privatist" /></a>
+                  <a href="/" class="js-logo-clone"><img src="{{ asset('images/logo-white.png')}}" alt="KS Privatist" /></a>
                 </div>
               </div>
               <div class="main-nav d-none d-lg-block">
@@ -55,11 +54,11 @@
               <div class="icons">
                 {{-- <a href="#" class="icons-btn d-inline-block"><span class="icon-heart-o"></span></a> --}}
                 <a href="cart.html" class="icons-btn d-inline-block bag">
-                  <img src="{{ asset('images/kart.png')}}" class="icon-shopping-bag mr-2" />
+                  <img src="{{ asset('images/kart-white.png')}}" class="icon-shopping-bag mr-2" />
                   <span class="number"></span>
                 </a>
                 <a href="#" class="icons-btn d-inline-block js-search-open">
-                    <img src="{{ asset('images/search.png')}}" class="ml-3 icon-search" />
+                    <img src="{{ asset('images/search-white.png')}}" class="ml-3 icon-search" />
                 </a>
 
                 <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span class="icon-menu"></span></a>
@@ -77,7 +76,7 @@
             <div class="row">
               <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
                 <a href="/" class="block-6 mb-4">
-                  <img src="{{ asset('images/kslogo.png')}}" alt="KS Privatist" class="logo">
+                  <img src="{{ asset('images/logo-white.png')}}" alt="KS Privatist" class="logo">
                 </a>
                 <ul class="social-network social-circle mt-3">
                     <li><a href="#"><img src="{{ asset('images/fb.png')}}" alt="Facebook" class="social-network-image icoFacebook"></a></li>
@@ -115,17 +114,21 @@
                   <ul class="list-unstyled">
                     <li class="name">Kajanan Sothilingam</li>
                     <li class="title">Daglig leder</li>
-                    <li class="telefon">+ 47 400 76 601</li>
+                    <li class="telefon"><div><img class="icon_phone" src="/icons/phone_white.png" /> <span> + 47 400 76 601</span></div></li>
                   </ul>
                   <ul class="list-unstyled">
                     <li class="name">Lathushan Uthayakumar</li>
                     <li class="title">Styremedlem</li>
-                    <li class="telefon">+ 47 400 76 601</li>
+                    <li class="telefon"><div><img class="icon_phone" src="/icons/phone_white.png" /> <span> + 47 400 76 601</span></div></li>
                   </ul>
                   <ul class="list-unstyled">
                     <li class="name">Denuyan Premakumar</li>
                     <li class="title">Styremedlem</li>
-                    <li class="telefon">+ 47 405 50 106</li>
+                    <li class="telefon"><div><img class="icon_phone" src="/icons/phone_white.png" /> <span> + 47 405 50 106</span></div></li>
+                  </ul>
+
+                  <ul class="list-unstyled">
+                    <li class="email" ><div><img class="icon_phone" src="/icons/mail_white.png" /> <span><a href="mailto:info@ksprivatist.no" style="text-transform:initial!important">info@ksprivatist.no</a></span></div></li>
                   </ul>
                 </div>
               </div>

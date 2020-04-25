@@ -1,5 +1,14 @@
 $bg-gray: #f9f9f9;
 
+h2 {
+    letter-spacing: .2em;
+}
+
+.content-section {
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
 .site-blocks-cover {
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,6 +17,75 @@ $bg-gray: #f9f9f9;
     position: relative;
     overflow: hidden;
     z-index: 9;
+
+    &.half {
+        background-repeat: no-repeat;
+        background-size: 50% 100%;
+
+        &,
+        .row {
+            height: 460px;
+            min-height: 460px;
+        }
+
+        .site-block-cover-content {
+            margin-top: 2%;
+            text-align: center;
+
+            .main-title {
+                color: white;
+                font-weight: normal;
+                font-size: 36px;
+                line-height: 140%;
+                /* or 50px */
+
+                text-align: center;
+                letter-spacing: 0.1em;
+            }
+
+            @include media-breakpoint-up(md) {
+                margin-top: 2%;
+            }
+        }
+    }
+
+    &.half_right {
+        background-repeat: no-repeat;
+        background-size: 50% 100%;
+        background-position: right center;
+
+        &,
+        .row {
+            height: 500px;
+            min-height: 500px;
+        }
+
+        .site-block-cover-content {
+            padding: 15px;
+            margin-top: 2%;
+
+            @include media-breakpoint-up(md) {
+                margin-top: 2%;
+            }
+        }
+
+        h2 {
+            font-size: 2rem;
+            padding-left: 0px;
+            border-left: 0px;
+            font-weight: bold;
+            display: inline-block;
+            color: #000;
+        }
+
+        p {
+            color: inherit;
+            font-size: inherit;
+            line-height: inherit;
+        }
+
+    }
+
 
     &,
     .row {
@@ -33,14 +111,15 @@ $bg-gray: #f9f9f9;
     }
 
     h1 {
-        font-size: 50px;
-        font-weight: 900;
+        font-size: 42px;
+        line-height: 140%;
+        letter-spacing: 0.12em;
         color: $black;
         margin-bottom: 30px;
         text-transform: uppercase;
 
         @include media-breakpoint-up(md) {
-            font-size: 70px;
+            font-size: 42px;
         }
     }
 
@@ -61,22 +140,27 @@ $bg-gray: #f9f9f9;
 
         .main-title {
             color: white;
-            font-weight: 1200;
+            font-weight: 800;
         }
 
         .sub-title {
             color: white;
             font-weight: normal;
+            font-size: 20px;
+            line-height: 140%;
+            /* or 28px */
+
+            letter-spacing: 0.08em;
         }
 
         .price-title {
             color: white;
-            font-weight: 2000;
+            font-weight: 800;
             font-size: 28px;
         }
 
         @include media-breakpoint-up(md) {
-            margin-top: 50%;
+            margin-top: 46%;
         }
     }
 
@@ -92,24 +176,38 @@ $bg-gray: #f9f9f9;
         }
 
     }
-
 }
 
 .main_cover {
+    background: url('/images/Bakgrunnsbilde.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.main_cover2 {
     background: url('/images/KS-laptop.jpg');
-    position: relative;
+}
+
+.main_cover3 {
+    background: url('/images/back2.jpg');
 }
 
 .layer {
-    background-color: $third;
+    background: linear-gradient(270deg, rgba(70, 125, 144, 0.75) 0%, rgba(18, 41, 60, 0.75) 63.02%);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .9;
+    opacity: 1.2;
 }
 
+.img-cover {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
 
 .site-blocks-1 {
     border-bottom: 1px solid $gray-4;
@@ -632,6 +730,8 @@ $bg-gray: #f9f9f9;
         padding-left: 30px;
         border-left: 4px solid $primary;
         display: inline-block;
+        margin-top: 30px;
+        margin-bottom: 5px;
     }
 
     &.text-center {

@@ -1,5 +1,5 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,300');
 
 // template styles
 @import "bootstrap/functions";
@@ -16,25 +16,11 @@
 /* Blocks */
 @import "site-blocks";
 
-.btn-primary {
-    @include button-variant($primary, darken($primary, 7.5%), darken($primary, 10%), lighten($primary, 5%), lighten($primary, 10%), darken($primary, 30%));
-}
 
-.btn {
-    font-size: 18px;
-    color: white;
-    border-radius: 20px;
-    padding: 15px 30px 40px 25px;
-    text-transform: initial;
-}
-
-body {
-    font-size: 18px;
-}
 
 .gray {
-    background-color: $gray-200;
-    color: $third;
+    color: $eight;
+    background-color: $gray-100;
 }
 
 video {
@@ -75,7 +61,7 @@ $white: #DBF1FF;
     &:after {
         content: "";
         height: 0.1em;
-        background-color: $third;
+        background-color: $primary;
         position: absolute;
         z-index: 1;
         width: 100%;
@@ -91,7 +77,7 @@ $white: #DBF1FF;
     }
 
     &:after {
-        background-color: $third;
+        background-color: $primary;
         width: 0%;
     }
 }
@@ -99,20 +85,21 @@ $white: #DBF1FF;
 .ProgressBar-icon {
     width: 0.4em;
     height: 0.4em;
-    background-color: #263336;
-    fill: #263336;
+    background-color: $primary;
+    fill: $primary;
     border-radius: 50%;
     padding: 0.4em;
     max-width: 100%;
     z-index: 10;
     position: relative;
     transition: all 0.25s ease-out;
-    margin-top: -5px;
+    margin-top: -3px;
+
 }
 
 .ProgressBar-stepLabel {
     display: block;
-    color: $third;
+    color: $primary;
     position: absolute;
     padding-top: 1em;
     width: 100%;
@@ -131,27 +118,28 @@ $white: #DBF1FF;
 
 //produkter
 .produkter {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
     margin-top: 80px;
 }
 
 .card {
     text-align: center;
-    border-radius: 20px;
-    background: $fourth;
+    border-radius: 8px;
+    background: $seventh;
+    -webkit-box-shadow: 25px 19px 74px -24px rgba(8, 8, 8, 0.44);
+    -moz-box-shadow: 25px 19px 74px -24px rgba(8, 8, 8, 0.44);
+    box-shadow: 25px 19px 74px -24px rgba(8, 8, 8, 0.44);
 
     .card-header {
         font-weight: bold;
         background: none;
         border: none;
-        padding: 20px;
+        font-size: 32px;
+        font-weight: 400;
+        color: $primary;
     }
 
-    h5 {
-        margin-top: 10px;
-        font-size: 25px;
+    .card-body {
+        text-align: left;
     }
 
     .card-footer {
@@ -163,6 +151,41 @@ $white: #DBF1FF;
     .card-body {
         min-height: 250px;
     }
+
+}
+
+.card-products {
+    background: #EFEFEF;
+    box-shadow: 10px 10px 20px #CCCBCB, -10px -10px 20px #FFFFFF;
+    border-radius: 8px;
+    width: 326px;
+    height: 386px;
+
+    .card-header {
+        font-weight: 600;
+        background: none;
+        border: none;
+        line-height: 140%;
+        font-size: 18px;
+        margin: 20px;
+        color: $primary;
+        letter-spacing: 0.15em;
+    }
+
+    .card-body {
+        min-height: 200px;
+        margin-top: -10px;
+    }
+
+}
+
+.btn-tilbud {
+    width: 240px;
+}
+
+.produkt {
+    max-width: 400px;
+    margin: 40px;
 }
 
 //end produkter
@@ -170,4 +193,12 @@ $white: #DBF1FF;
 .main-container {
     padding: 120px 15px;
 
+}
+
+.icon_phone {
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
 }
