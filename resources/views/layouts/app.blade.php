@@ -114,21 +114,21 @@
                   <ul class="list-unstyled">
                     <li class="name">Kajanan Sothilingam</li>
                     <li class="title">Daglig leder</li>
-                    <li class="telefon"><div><img class="icon_phone" src="{{ asset('icons/phone_white.png')}}" /> <span> + 47 400 76 601</span></div></li>
+                    <li class="telefon"><div><img class="icon_phone" src="{{ asset('images/phone_white.png')}}" /> <span> + 47 400 76 601</span></div></li>
                   </ul>
                   <ul class="list-unstyled">
                     <li class="name">Lathushan Uthayakumar</li>
                     <li class="title">Styremedlem</li>
-                    <li class="telefon"><div><img class="icon_phone" src="{{ asset('icons/phone_white.png')}}" /> <span> + 47 400 76 601</span></div></li>
+                    <li class="telefon"><div><img class="icon_phone" src="{{ asset('images/phone_white.png')}}" /> <span> + 47 400 76 601</span></div></li>
                   </ul>
                   <ul class="list-unstyled">
                     <li class="name">Denuyan Premakumar</li>
                     <li class="title">Styremedlem</li>
-                    <li class="telefon"><div><img class="icon_phone" src="{{ asset('icons/phone_white.png')}}" /> <span> + 47 405 50 106</span></div></li>
+                    <li class="telefon"><div><img class="icon_phone" src="{{ asset('images/phone_white.png')}}" /> <span> + 47 405 50 106</span></div></li>
                   </ul>
 
                   <ul class="list-unstyled">
-                    <li class="email" ><div><img class="icon_phone" src="{{ asset('icons/mail_white.png')}}" /> <span><a href="mailto:info@ksprivatist.no" style="text-transform:initial!important">info@ksprivatist.no</a></span></div></li>
+                    <li class="email" ><div><img class="icon_phone" src="{{ asset('images/mail_white.png')}}" /> <span><a href="mailto:info@ksprivatist.no" style="text-transform:initial!important">info@ksprivatist.no</a></span></div></li>
                   </ul>
                 </div>
               </div>
