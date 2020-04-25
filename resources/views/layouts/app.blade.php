@@ -9,7 +9,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>KS Privatist | Nettstudier | Digital læringsplattform</title>
+    <title>KS Privatist | Nettstudier | KSPrivatist.no</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
