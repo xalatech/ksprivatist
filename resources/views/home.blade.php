@@ -9,8 +9,16 @@
               <div class="site-block-cover-content">
               <h1 class="main-title">DIN DIGITALE <br> LÆRINGSPLATTFORM</h1>
               <p class="sub-title">- En enklere vei til bedre karakterer</p>
-              <p class="mt-5"><span class="price-title">579,- </span> <span class="sub-title">per fag/mnd</span></p>
-              <a href="#" class="btn btn-transparent mt-5">Se fagtilbudet her</a>
+              <p class="mt-2"><span class="price-title">579,- </span> <span class="sub-title">per fag/mnd</span></p>
+              <a href="#" class="btn btn-transparent mt-2">Se fagtilbudet her</a>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5 mb-3">
+            <div class="col-md-12 order-md-1 align-self-start justify-content-center text-center">
+            <p class="annonse-title">PÅMELDING ÅPNER 15. JUNI 2020</p>
+            <p class="annonse-title">OPPSTART 18. AUGUST 2020</p>
+
               </div>
             </div>
             <div class="col-md-6 order-1 align-self-end">
@@ -21,7 +29,7 @@
       <div class="site-section gray" data-aos="fade">
         <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
           <div class="title-section">
             <h2 class="text-uppercase"><span>HVA ER KS?</span></h2>
           </div>
@@ -31,7 +39,7 @@
 
                 </div>
                   </div>
-           <div class="col-6 text-center pt-3">
+           <div class="col-md-6 col-sm-hidden text-center pt-3">
                 <video controls class="mt-3 ml-3">
                     <source src="movie.mp4" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">

@@ -18,9 +18,23 @@ h2 {
     background-repeat: no-repeat;
     background-position: center center;
     background: #f9f9f9;
-    position: relative;
-    overflow: hidden;
     z-index: 9;
+
+    .annonse-title {
+        color: $white;
+        margin-bottom: 2px;
+        line-height: normal;
+        font-size: 13px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: 0.12em;
+    }
+
+    .btn {
+        @include media-breakpoint-down(md) {
+            display: none;
+        }
+    }
 
     &.half {
         background-repeat: no-repeat;
@@ -93,8 +107,10 @@ h2 {
 
     &,
     .row {
-        min-height: 860px;
-        height: calc(100vh - 174px);
+        @include media-breakpoint-up(md) {
+            min-height: 860px;
+            height: calc(100vh - 174px);
+        }
     }
 
     &.inner-page {
@@ -115,25 +131,32 @@ h2 {
     }
 
     h1 {
-        font-size: 46px;
-        line-height: 140%;
         color: $black;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         text-transform: uppercase;
-        letter-spacing: 0.2em;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: 0.12em;
 
-        -webkit-text-stroke: 3.5px $white;
+        -webkit-text-stroke: 1.5px $white;
         -webkit-text-fill-color: $white;
 
         @include media-breakpoint-up(md) {
             font-size: 46px;
+            line-height: 140%;
+            margin-bottom: 20px;
         }
     }
 
     p {
         color: lighten($black, 20%);
-        font-size: 20px;
+        font-size: 14px;
         line-height: 35px;
+
+        @include media-breakpoint-up(md) {
+            font-size: 20px;
+        }
     }
 
     .intro-text {
@@ -153,17 +176,34 @@ h2 {
         .sub-title {
             color: white;
             font-weight: normal;
-            font-size: 20px;
+            font-size: 16px;
             line-height: 140%;
-            /* or 28px */
+            /* or 22px */
 
             letter-spacing: 0.08em;
+
+
+            @include media-breakpoint-up(md) {
+                font-size: 20px;
+                line-height: 140%;
+
+            }
         }
 
         .price-title {
             color: white;
-            font-weight: 800;
-            font-size: 28px;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 140%;
+            /* or 25px */
+
+            letter-spacing: 0.12em;
+
+
+            @include media-breakpoint-up(md) {
+                font-size: 28px;
+                font-weight: 800;
+            }
         }
 
         @include media-breakpoint-up(md) {

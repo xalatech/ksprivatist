@@ -140,7 +140,7 @@ a:hover {
 }
 
 .site-section {
-  padding: 2.5em 0;
+  padding: 0.5em 0;
 }
 
 @media (min-width: 768px) {
@@ -272,8 +272,15 @@ a:hover {
 }
 
 .site-logo a img {
-  max-height: 60px;
-  margin-top: 5px;
+  max-height: 35px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .site-logo a img {
+    max-height: 60px;
+    margin-top: 5px;
+  }
 }
 
 .icons {
@@ -335,7 +342,6 @@ a:hover {
 
 .site-navbar.transparent {
   background: transparent;
-  height: 95px;
 }
 
 .site-navbar.transparent a {
@@ -344,6 +350,12 @@ a:hover {
 
 .site-navbar.transparent a:hover {
   color: #3d3f45;
+}
+
+@media (min-width: 768px) {
+  .site-navbar.transparent {
+    height: 95px;
+  }
 }
 
 .site-navbar.scrolled {
@@ -788,9 +800,23 @@ h2 {
   background-repeat: no-repeat;
   background-position: center center;
   background: #f9f9f9;
-  position: relative;
-  overflow: hidden;
   z-index: 9;
+}
+
+.site-blocks-cover .annonse-title {
+  color: #fff;
+  margin-bottom: 2px;
+  line-height: normal;
+  font-size: 13px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.12em;
+}
+
+@media (max-width: 991.98px) {
+  .site-blocks-cover .btn {
+    display: none;
+  }
 }
 
 .site-blocks-cover.half {
@@ -863,10 +889,12 @@ h2 {
   line-height: inherit;
 }
 
-.site-blocks-cover,
-.site-blocks-cover .row {
-  min-height: 860px;
-  height: calc(100vh - 174px);
+@media (min-width: 768px) {
+  .site-blocks-cover,
+  .site-blocks-cover .row {
+    min-height: 860px;
+    height: calc(100vh - 174px);
+  }
 }
 
 .site-blocks-cover.inner-page,
@@ -884,26 +912,35 @@ h2 {
 }
 
 .site-blocks-cover h1 {
-  font-size: 46px;
-  line-height: 140%;
   color: #000;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
-  -webkit-text-stroke: 3.5px #fff;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.12em;
+  -webkit-text-stroke: 1.5px #fff;
   -webkit-text-fill-color: #fff;
 }
 
 @media (min-width: 768px) {
   .site-blocks-cover h1 {
     font-size: 46px;
+    line-height: 140%;
+    margin-bottom: 20px;
   }
 }
 
 .site-blocks-cover p {
   color: #333333;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 35px;
+}
+
+@media (min-width: 768px) {
+  .site-blocks-cover p {
+    font-size: 20px;
+  }
 }
 
 .site-blocks-cover .intro-text {
@@ -924,16 +961,33 @@ h2 {
 .site-blocks-cover .site-block-cover-content .sub-title {
   color: white;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 140%;
-  /* or 28px */
+  /* or 22px */
   letter-spacing: 0.08em;
+}
+
+@media (min-width: 768px) {
+  .site-blocks-cover .site-block-cover-content .sub-title {
+    font-size: 20px;
+    line-height: 140%;
+  }
 }
 
 .site-blocks-cover .site-block-cover-content .price-title {
   color: white;
-  font-weight: 800;
-  font-size: 28px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  letter-spacing: 0.12em;
+}
+
+@media (min-width: 768px) {
+  .site-blocks-cover .site-block-cover-content .price-title {
+    font-size: 28px;
+    font-weight: 800;
+  }
 }
 
 @media (min-width: 768px) {
