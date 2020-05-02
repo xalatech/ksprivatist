@@ -41,6 +41,8 @@
               <div class="main-nav d-none d-lg-block">
                 <nav class="site-navigation text-right text-md-center" role="navigation">
                   <ul class="site-menu js-clone-nav d-none d-lg-block">
+                    <li class="meny" style="display:none;"><a href="/"><span>MENY</span></a></li>
+
                     @foreach($navbars as $nav)
                     @if($nav->icon == "" && $nav->name != 'Logg inn')
                     <li><a href="{{ route('showpage', $nav->link) }}">{{ $nav->name }}</a></li>

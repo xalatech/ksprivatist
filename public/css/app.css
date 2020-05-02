@@ -273,6 +273,7 @@ a:hover {
 
 .site-logo a img {
   max-height: 60px;
+  margin-top: 5px;
 }
 
 .icons {
@@ -303,6 +304,12 @@ a:hover {
 
 .icons-btn .icon-search {
   max-height: 25px;
+}
+
+@media (max-width: 991.98px) {
+  .icons-btn .icon-search {
+    display: none;
+  }
 }
 
 .site-menu-toggle {
@@ -577,7 +584,8 @@ a:hover {
   right: 0;
   z-index: 2000;
   padding-top: 20px;
-  background: #fff;
+  background: #12293c;
+  color: #fff;
   height: calc(100vh);
   transform: translateX(110%);
   box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
@@ -624,7 +632,7 @@ a:hover {
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo a {
   display: inline-block;
   text-transform: uppercase;
-  color: #25262a;
+  color: #fff;
   letter-spacing: 0.2em;
   font-size: 20px;
   padding-left: 10px;
@@ -634,6 +642,12 @@ a:hover {
 
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo a:hover {
   text-decoration: none;
+}
+
+@media (max-width: 991.98px) {
+  .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo {
+    display: none;
+  }
 }
 
 .site-mobile-menu .site-mobile-menu-body {
@@ -656,11 +670,12 @@ a:hover {
   padding: 10px 20px;
   display: block;
   position: relative;
-  color: #212529;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #263437;
+  color: #5c626e;
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -670,6 +685,16 @@ a:hover {
 
 .site-mobile-menu .site-nav-wrap li.active > a {
   color: #263437;
+}
+
+.site-mobile-menu .site-nav-wrap li.meny {
+  font-weight: 800;
+}
+
+@media (max-width: 991.98px) {
+  .site-mobile-menu .site-nav-wrap li.meny {
+    display: inline-block !important;
+  }
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
@@ -1708,5 +1733,23 @@ video {
   float: left;
   margin-top: 5px;
   margin-right: 10px;
+}
+
+.icon-menu {
+  height: 25px;
+  width: 25px;
+  float: left;
+  margin-top: 18px;
+  margin-right: 0px;
+  background: url("/images/hamburger.png");
+}
+
+.ion-ios-close {
+  height: 25px;
+  width: 25px;
+  float: left;
+  margin-top: 1px;
+  margin-right: 0px;
+  background: url("/images/close.png");
 }
 
