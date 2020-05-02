@@ -224,3 +224,12 @@ $white: #DBF1FF;
     margin-right: 0px;
     background: url('/images/close.png');
 }
+
+#scrollto::before,
+#scrolltop::before {
+    display: block;
+    content: " ";
+    margin-top: -65px;
+    height: 65px;
+    visibility: hidden;
+}

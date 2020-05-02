@@ -18,6 +18,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center center;
     background: #f9f9f9;
+    position: relative;
+    overflow: hidden;
     z-index: 9;
 
     .annonse-title {
@@ -106,12 +108,19 @@ h2 {
 
 
     &,
-    .row {
+    .jumbotorn {
         @include media-breakpoint-up(md) {
             min-height: 860px;
             height: calc(100vh - 174px);
         }
+
+        .row-first {
+            @include media-breakpoint-up(md) {
+                min-height: 710px;
+            }
+        }
     }
+
 
     &.inner-page {
 
@@ -137,15 +146,16 @@ h2 {
         font-weight: 800;
         font-size: 24px;
         line-height: 140%;
-        letter-spacing: 0.12em;
+        letter-spacing: 0.2em;
 
         -webkit-text-stroke: 1.5px $white;
         -webkit-text-fill-color: $white;
 
         @include media-breakpoint-up(md) {
             font-size: 46px;
-            line-height: 140%;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            -webkit-text-stroke: 3.5px $white;
+
         }
     }
 
@@ -207,7 +217,7 @@ h2 {
         }
 
         @include media-breakpoint-up(md) {
-            margin-top: 46%;
+            margin-top: 40%;
         }
     }
 

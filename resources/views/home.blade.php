@@ -3,14 +3,14 @@
     <div class="site-blocks-cover main_cover" data-aos="fade">
         <div class="layer">
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 ml-auto order-md-1 align-self-start">
+        <div class="container jumbotorn">
+          <div class="row row-first">
+            <div class="col-md-8">
               <div class="site-block-cover-content">
               <h1 class="main-title">DIN DIGITALE <br> LÆRINGSPLATTFORM</h1>
               <p class="sub-title">- En enklere vei til bedre karakterer</p>
-              <p class="mt-2"><span class="price-title">579,- </span> <span class="sub-title">per fag/mnd</span></p>
-              <a href="#" class="btn btn-transparent mt-2">Se fagtilbudet her</a>
+              <p class="mt-5"><span class="price-title">579,- </span> <span class="sub-title">per fag/mnd</span></p>
+              <a href="#" class="btn btn-transparent mt-5">Se fagtilbudet her</a>
               </div>
             </div>
           </div>
@@ -18,6 +18,7 @@
             <div class="col-md-12 order-md-1 align-self-start justify-content-center text-center">
             <p class="annonse-title">PÅMELDING ÅPNER 15. JUNI 2020</p>
             <p class="annonse-title">OPPSTART 18. AUGUST 2020</p>
+            <p class="annonse-pil"><a href="#" class="scrolldown"><img src="{{ asset('images/down_arrow.png')}}" /></a> </p>
 
               </div>
             </div>
@@ -26,7 +27,7 @@
           </div>
       </div>
     </div>
-      <div class="site-section gray" data-aos="fade">
+      <div class="site-section gray" data-aos="fade" id="section1">
         <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
@@ -167,7 +168,13 @@
 
 
           </div>
+          <div class="col-md-12 order-md-1 align-self-end justify-content-end text-right">
+
+            <p class="annonse-pil mr-auto"><a href="#" class="scrollup"><img src="{{ asset('images/arrow_up.png')}}" /></a> </p>
+      </div>
         </div>
+
+
       </div>
 
 @endsection

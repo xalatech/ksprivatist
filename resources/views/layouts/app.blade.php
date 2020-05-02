@@ -72,6 +72,8 @@
 
         <main class="content-wrapper">
             @yield('content')
+
+
         </main>
 
         <footer class="site-footer custom-border-top text-light">

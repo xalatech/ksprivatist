@@ -4,9 +4,17 @@
      once: true
  });
 
+
  jQuery(document).ready(function ($) {
 
      "use strict";
+
+     $(".scrolldown").click(function () {
+         $('html, body').animate({
+             scrollTop: $("#section1").offset().top
+         }, 900);
+     });
+
 
      $(document).scroll(function () {
          var $nav = $(".site-navbar");
