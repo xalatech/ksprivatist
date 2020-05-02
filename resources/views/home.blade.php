@@ -35,12 +35,17 @@
             <h2 class="text-uppercase"><span>HVA ER KS?</span></h2>
           </div>
                 <div class="content-section">
-                    <p class="mt-3 mb-3">
-                        KS er en digital læringsplattform for elever på ungdomsskolen og videregående skole. Hos oss får du som elev den digitale nettundervisningen (leksehjelpen) som kreves for å lykkes i de ulike fagene. Den digitale nettundervisningen foregår med fremvisninger av ulike områder av pensumet, i tillegg til eksamensforberedelser. Pensumet blir lært bort av fagdyktige studenter via videosnutter, der faget blir forklart så enkelt som mulig.           </p>
+                    <p class="mt-3 mb-3 hidden-xs">
+                        KS er en digital læringsplattform for elever på ungdomsskolen og videregående skole. Hos oss får du som elev den digitale nettundervisningen (leksehjelpen) som kreves for å lykkes i de ulike fagene. Den digitale nettundervisningen foregår med fremvisninger av ulike områder av pensumet, i tillegg til eksamensforberedelser. Pensumet blir lært bort av fagdyktige studenter via videosnutter, der faget blir forklart så enkelt som mulig.
+                    </p>
+
+                    <p class="mt-3 mb-3 hidden-md">
+                        KS er en digital læringsplattform for elever på ungdomsskolen og videregående skole, samt privatister. Den digitale nettundervisningen foregår med fremvisninger av ulike områder av pensumet, i tillegg til eksamensforberedelser.
+                    </p>
 
                 </div>
                   </div>
-           <div class="col-md-6 col-sm-hidden text-center pt-3">
+           <div class="col-md-6 hidden-sm hidden-xs text-center pt-3">
                 <video controls class="mt-3 ml-3">
                     <source src="movie.mp4" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">
@@ -75,18 +80,21 @@
                     <h2 class="text-uppercase"><span>HVORFOR KS?</span></h2>
                   </div>
                   <div class="content-section">
-                  <p class="mt-3 mb-3">
-                    KS er etablert av studenter for studenter. Statistikken i dag viser at det kun er 37 % av elever som lærer av å sitte bak skolebenken. Hos oss får du muligheten til å gå gjennom pensumet, ta notater underveis og lære i ditt eget tempo. <b>Et læringsabonnement hos KS er kun et supplement til skolen, og er ment som et hjelpemiddel ved siden av.</b>
-                </p>
+                    <p class="mt-3 mb-3 hidden-xs">
+                        KS er etablert av studenter for studenter. Statistikken i dag viser at det kun er 37 % av elever som lærer av å sitte bak skolebenken. Hos oss får du muligheten til å gå gjennom pensumet, ta notater underveis og lære i ditt eget tempo. <b>Et læringsabonnement hos KS er kun et supplement til skolen, og er ment som et hjelpemiddel ved siden av.</b>
+                   <br />
+                   <br />
+                        Hvorfor ikke ha ett abonnement som gir deg kunnskapen og ferdighetene til å lykkes på skolen? Et digitalt læringsabonnement med videoer som gir elever kunnskap og lærdom for å lykkes på skolen er absolutt en god investering. Én time med KS nettundervisning hver dag kan hjelpe elever med å prestere mye bedre på skolen.
+                    </p>
+                    <p class="mt-3 mb-3 hidden-md">
+                        Statistikken i dag viser at det kun er 37 % av elever som lærer av å sitte bak skolebenken. Hos oss får du muligheten til å gå gjennom pensumet, ta notater underveis og lære i ditt eget tempo.   </p>
 
-                <p class="mt-3 mb-3">
-                    Hvorfor ikke ha ett abonnement som gir deg kunnskapen og ferdighetene til å lykkes på skolen? Et digitalt læringsabonnement med videoer som gir elever kunnskap og lærdom for å lykkes på skolen er absolutt en god investering. Én time med KS nettundervisning hver dag kan hjelpe elever med å prestere mye bedre på skolen.
-                </p>
+                  </div>
+
                   </div>
             </div>
 
           </div>
-      </div>
     </div>
 
 
@@ -94,12 +102,37 @@
       <div class="site-section gray" data-aos="fade">
         <div class="container">
           <div class="row">
-            <div class="title-section mb-5 col-12">
+            <div class="title-section mb-3 col-12">
               <h2 class="text-uppercase">
                 HVORDAN FUNGERER DET?</h2>
             </div>
           </div>
-          <div class="row mb-5 mt-5">
+          <div class="container hidden-md">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="timeline">
+                        <li>
+                            <p>Kjøp fag eller fagpakker</p>
+                        </li>
+                        <li>
+                            <p>Se pensumsvideoer</p>
+                          </li>
+                          <li>
+                            <p>Gjør oppgaver</p>
+                          </li>
+                          <li >
+                            <p>Repeter</p>
+                          </li>
+                          <li >
+                              <p>Yt ditt beste på eksamen</p>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+          <div class="row mb-5 mt-5 hidden-xs">
             <div class="col-md-12">
                 <ol class="ProgressBar mb-5">
                     <li class="ProgressBar-step">
@@ -126,16 +159,18 @@
 
                   </div>
             </div>
-            <div class="col-lg-12 mb-4 text-center">
+            <div class="col-lg-12 mb-4 text-center hidden-xs">
                 <video controls>
                     <source src="movie.mp4" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">
                   Your browser does not support the video tag.
                   </video>
             </div>
-
-            <div class="row produkter justify-content-center">
-
+        </div>
+      </div>
+      <div class="site-section mb-5" data-aos="fade">
+        <div class="container">
+          <div class="row produkter">
                 <div class="col produkt">
 
             <div class="card card-products">
@@ -168,13 +203,10 @@
 
 
           </div>
-          <div class="col-md-12 order-md-1 align-self-end justify-content-end text-right">
+          <div class="col-md-12 order-md-1 align-self-end justify-content-end text-right hidden-xs">
 
             <p class="annonse-pil mr-auto"><a href="#" class="scrollup"><img src="{{ asset('images/arrow_up.png')}}" /></a> </p>
       </div>
         </div>
-
-
-      </div>
 
 @endsection

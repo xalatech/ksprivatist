@@ -79,8 +79,8 @@
         <footer class="site-footer custom-border-top text-light">
           <div class="container">
             <div class="row">
-              <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                <a href="/" class="block-6 mb-4">
+              <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 ">
+                <a href="/" class="block-6 mb-4 hidden-xs">
                   <img src="{{ asset('images/logo-white.png')}}" alt="KS Privatist" class="logo">
                 </a>
                 <ul class="social-network social-circle mt-3">
@@ -124,7 +124,7 @@
                   <ul class="list-unstyled">
                     <li class="name">Lathushan Uthayakumar</li>
                     <li class="title">Styremedlem</li>
-                    <li class="telefon"><div><img class="icon_phone" src="{{ asset('images/phone_white.png')}}" /> <span> + 47 400 76 601</span></div></li>
+                    <li class="telefon"><div><img class="icon_phone" src="{{ asset('images/phone_white.png')}}" /> <span> + 47 413 97 932</span></div></li>
                   </ul>
                   <ul class="list-unstyled">
                     <li class="name">Denuyan Premakumar</li>
@@ -140,13 +140,12 @@
             </div>
           </div>
         </footer>
-        <div class="container">
+        <div class="container copyright">
         <div class="row pt-3">
             <div class="col-md-8">
               <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> <strong>KS PRIVATIST AS</strong></p>
             </div>
             <div class="col-md-4">
-
               Developed by <a href="https://xala.no" target="_blank" class="text-primary">Xala Technologies</a>
             </div>
 
